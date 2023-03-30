@@ -35,7 +35,7 @@
                 data.addRows(dataArray);
 
                 var piechart_options = {
-                    title: 'Pie Chart: How Much Products Sold By Last Night',
+                    title: 'Gráfico de Pizza: Quantos produtos foram vendidos',
                     width: 400,
                     height: 300
                 };
@@ -44,7 +44,7 @@
                 piechart.draw(data, piechart_options);
 
                 var barchart_options = {
-                    title: 'Barchart: How Much Products Sold By Last Night',
+                    title: 'Gráfico de barra: Quantos produtos foram vendidos',
                     width: 400,
                     height: 300,
                     legend: 'none'
@@ -54,7 +54,7 @@
                 barchart.draw(data, barchart_options);
 
                 var linechart_options = {
-                    title: 'Line Charts',
+                    title: 'Gráfico de linha: Quantos produtos foram vendidos',
                     width: 400,
                     height: 300,
                     legend: 'none'
@@ -64,7 +64,7 @@
                 linechart.draw(data, linechart_options);
 
                 var columnchart_options = {
-                    title: 'Column Charts',
+                    title: 'Gráfico de coluna: Quantos produtos foram vendidos',
                     width: 400,
                     height: 300,
                     legend: 'none'
