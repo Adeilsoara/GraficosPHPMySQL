@@ -7,6 +7,7 @@ Neste tutorial você terá uma breve descrição de como funciona a API do Googl
 
  - [Google Charts](https://developers.google.com/chart/interactive/docs/quick_start?hl=pt-br)
  - [Ajax Jquery CDN](https://cdnjs.com/libraries/jquery)
+ - [Vídeo Tutorial](https://www.youtube.com/watch?v=BESxI_sJpY8)
 
 
 
