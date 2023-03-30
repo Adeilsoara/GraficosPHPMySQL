@@ -7,8 +7,9 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <script type="text/javascript">
+        /* Aqui utliza-se Ajax com Jquery para converter os dados do banco em formato JSON */
         $(document).ready(function() {
-
+            /* carregar os dados a partir da consulta ao banco no arquivo "data.php" */
             $.ajax({
                 url: "data.php",
                 dataType: "JSON",
@@ -22,6 +23,7 @@
                 }
             });
 
+            /* Função responsável por desenhar os gráficos */
             function drawChart(result) {
 
                 var data = new google.visualization.DataTable();
@@ -33,7 +35,8 @@
                 });
 
                 data.addRows(dataArray);
-
+                
+                /* Gráfico do tipo Pizza */
                 var piechart_options = {
                     title: 'Gráfico de Pizza: Quantos produtos foram vendidos',
                     width: 400,
@@ -42,7 +45,8 @@
                 var piechart = new google.visualization.PieChart(document
                     .getElementById('piechart_div'));
                 piechart.draw(data, piechart_options);
-
+               
+                /* Gráfico do tipo Barras */
                 var barchart_options = {
                     title: 'Gráfico de barra: Quantos produtos foram vendidos',
                     width: 400,
@@ -52,7 +56,8 @@
                 var barchart = new google.visualization.BarChart(document
                     .getElementById('barchart_div'));
                 barchart.draw(data, barchart_options);
-
+               
+                /* Gráfico do tipo Linha */
                 var linechart_options = {
                     title: 'Gráfico de linha: Quantos produtos foram vendidos',
                     width: 400,
@@ -62,7 +67,8 @@
                 var linechart = new google.visualization.LineChart(document
                     .getElementById('linechart_div'));
                 linechart.draw(data, linechart_options);
-
+              
+                /* Gráfico do tipo Colunas */
                 var columnchart_options = {
                     title: 'Gráfico de coluna: Quantos produtos foram vendidos',
                     width: 400,
