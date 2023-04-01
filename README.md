@@ -12,12 +12,7 @@ Neste tutorial você terá uma breve descrição de como funciona a API do Googl
 
 
 ## Resultado Esperado
+O resultado utiliza a mesma consulta SQL para diferentes tipos de gráficos: barras, colunas, linha e pizza. Pode-se alterar e deve-se alterar para que cada gráfico apresente
+um resultado diferente para cada consulta, também diferente, sobre os dados extraídos do banco.
 
-![Screenshot 2023-03-30 at 15-47-05 Google Chart in PHP and MySQL](https://user-images.githubusercontent.com/6910054/228934862-cae62fc3-1b81-4d1b-891f-364192b40592.png)
-
-![Screenshot 2023-03-30 at 15-47-30 Google Chart in PHP and MySQL](https://user-images.githubusercontent.com/6910054/228934991-b1220efd-b5ae-4a5c-a49b-ea78fd8b470c.png)
-
-![Screenshot 2023-03-30 at 15-49-36 Google Chart in PHP and MySQL](https://user-images.githubusercontent.com/6910054/228935143-d2e84a15-d5f6-40de-a5cf-4ee2f01624e0.png)
-
-![Screenshot 2023-03-30 at 15-49-47 Google Chart in PHP and MySQL](https://user-images.githubusercontent.com/6910054/228935216-dacdb27c-8969-40a2-9fb1-7a59f0f164d9.png)
-
+![Screenshot 2023-04-01 at 18-02-37 Google Chart in PHP and MySQL](https://user-images.githubusercontent.com/6910054/229313881-72656537-d6a3-47e4-aeaa-abbc534e4b01.png)
